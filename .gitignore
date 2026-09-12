@@ -1,0 +1,32 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Firebase Admin credentials
+serviceAccountKey.json
+*serviceAccount*.json
+firebase-adminsdk*.json
+
+# Environment / secrets
+.env
+.env.*
+*.key
+*.pem
+
+# Debug / temporary audio
+debug_audio*
+*.wav
+*.m4a
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
